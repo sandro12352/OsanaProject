@@ -1,0 +1,27 @@
+<div class="container p-4">
+  <div class="row">
+    <div class="col-12 text-center my-3">
+      <h1>COTIZA TU PROYECTO</h1>
+    </div>
+    <div class="col-6 ">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eaque dolores quidem tenetur dicta laborum nostrum expedita, repudiandae repellat laboriosam praesentium dolor id nisi labore saepe quis modi omnis magnam?
+      <img src="./assets/images/casa4.png" alt="" style="width: 100%;">
+    </div>
+    <div class="col-6">
+      <form  [formGroup]="myForm" (submit)="enviarMensaje()" autocomplete="off">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label" >Correo Electronico:</label>
+          <input formControlName="correo" type="email" name="correo" required class="form-control" id="exampleFormControlInput1" placeholder="correo@ejemplo.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Escribenos:</label>
+          <textarea formControlName="mensaje" class="form-control" required id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button  type="submit" class="btn btn-dark " style="width: 40%;">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+    

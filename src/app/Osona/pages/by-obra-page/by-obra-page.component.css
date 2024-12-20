@@ -1,0 +1,5 @@
+.container-img>img{
+    border-radius: 5px;
+    object-fit: cover;
+    height: 400px;
+}

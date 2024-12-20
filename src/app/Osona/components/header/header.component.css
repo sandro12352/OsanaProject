@@ -1,0 +1,29 @@
+header{
+    height: 100px;
+    width: 100vw;
+    padding: 5px 1%;
+   
+
+}
+
+ul{
+    margin: auto;
+}
+.logo{
+ padding: 10px;
+ 
+}
+
+.logo img{
+  cursor: pointer;
+  height: 40px;
+  width: auto;
+  transition: all .6s ease-out;
+ 
+}
+
+.logo img:hover{
+  transform: scale(1.2);
+}
+
+

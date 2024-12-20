@@ -1,0 +1,75 @@
+[
+    {
+      "id":1,   
+      "titulo":"Obra 1",
+      "imagen":"./assets/images/casa7.jpeg",
+      "descripcion":"Obra realizada en.....",
+      "ano":"año",
+      "ubicacion":"ubicacion"
+    },
+    {
+      "id":2,
+      "titulo":"Obra 2",
+      "imagen":"./assets/images/casa7.jpeg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+      
+    },
+    {
+      "id":3 ,
+      "titulo":"Obra 3",
+      "imagen":"./assets/images/casa7.jpeg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+    },
+    {
+      "id":4 ,
+      "titulo":"Obra 4",
+      "imagen":"./assets/images/casa7.jpeg",
+      "descripcion":"Obra realizada en.....",
+      "ano":"año",
+      "ubicacion":"ubicacion"
+    },
+    {
+      "id":5 ,
+      "titulo":"Obra 5",
+      "imagen":"./assets/images/casa7.jpeg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+    },
+    {
+      "id":6 ,
+      "titulo":"Obra 6",
+      "imagen":"./assets/images/casa7.jpeg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+    },
+    {
+      "id":7 ,
+      "titulo":"Obra 7",
+      "imagen":"./assets/images/casa7.jpeg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+    },
+    {
+      "id":8 ,
+      "titulo":"Obra 8",
+      "imagen":"./assets/images/casa7.jpeg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+    },
+    {
+      "id":9 ,
+      "titulo":"Obra 9",
+      "imagen":"./assets/images/casa7.jpeg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+    }
+  ]
