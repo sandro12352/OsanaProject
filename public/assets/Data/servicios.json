@@ -1,0 +1,38 @@
+[{
+    "id": 1,
+    "nombre": "Licencia de Construcción",
+    "imagen":"./assets/images/licencia_de_construccion.png",
+    "descripcion": "Servicio realizado....."
+},
+{
+    "id": 2,
+    "nombre": "Licencia de Demolición ",
+    "imagen":"./assets/images/licencia_de_demolicion.png",
+    "descripcion": "Servicio realizado....."
+},
+{
+    "id": 3,
+    "nombre": "Anteproyecto de Arquitectura",
+    "imagen":"./assets/images/anteproyecto.png",
+    "descripcion": "Servicio realizado....."
+},
+{
+    "id": 4,
+    "nombre": "Declaratoria de Fábrica",
+    "imagen":"./assets/images/cotizacion.jpg",
+    "descripcion": "Servicio realizado....."
+},
+{
+    "id": 5,
+    "nombre": "Independización",
+    "imagen":"./assets/images/cotizacion.jpg",
+    "descripcion": "Servicio realizado....."
+},
+{
+    "id": 6,
+    "nombre": "Subdivisión",
+    "imagen":"./assets/images/cotizacion.jpg",
+    "descripcion": "Servicio realizado....."
+}
+
+]

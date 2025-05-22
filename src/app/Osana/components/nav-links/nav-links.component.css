@@ -1,0 +1,72 @@
+ul {
+    display: flex;
+    margin: auto;
+}
+
+ul li {
+    list-style: none;
+    font-size: medium;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+.navMobil{
+    display: none;
+}
+
+ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Ajusta según tu preferencia */
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 1s ease;
+}
+
+ul li a:hover::after,
+ul li a:focus::after,
+ul li.active-link a::after { /* Aquí es donde se activa la línea en el enlace activo */
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media screen and (max-width:768px) {
+    .navDesktop {
+        display:none;
+    }
+
+   .navMobil {
+    position: fixed;
+    top: 0;
+    z-index: 998;
+    width: 100%;
+    opacity: 0.80;
+    transform: translateX(100%); /* Ajuste para que se desplace fuera de la pantalla */
+    max-height: 100vh;
+    overflow-y: auto;
+    transition: transform 0.3s ease; /* Transición suave cuando se active */
+}
+
+.navMobil.active-bar {
+    transform: translateX(0); /* Desplaza el menú a la vista cuando está activo */
+}
+
+/* Opcionalmente, puedes añadir estilos para los enlaces activos si es necesario */
+a.active {
+    color: #fff; /* Cambia el color del enlace activo, por ejemplo */
+}
+
+    
+}
+
+
+
+

@@ -1,0 +1,14 @@
+<div class="container my-3">
+  <div class="row">
+    <div class="col-md-4 my-4 d-flex align-items-center flex-column" *ngFor="let obra of listObras">
+      <a [href]="'./obra/by/' + obra.id">
+        <div class="card-container" style="width: 25rem;height: 15rem;">
+          <img class="card-img" [src]="obra.imagen" [alt]="obra.titulo" style="height: 100%;">
+          <div class="container-hover">
+            <p>{{obra.titulo}}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
