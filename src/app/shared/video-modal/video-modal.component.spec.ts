@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomePageComponent } from './home-page.component';
+import { VideoModalComponent } from './video-modal.component';
 
-describe('HomePageComponent', () => {
-  let component: HomePageComponent;
-  let fixture: ComponentFixture<HomePageComponent>;
+describe('VideoModalComponent', () => {
+  let component: VideoModalComponent;
+  let fixture: ComponentFixture<VideoModalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [HomePageComponent]
+      declarations: [VideoModalComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HomePageComponent);
+    fixture = TestBed.createComponent(VideoModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

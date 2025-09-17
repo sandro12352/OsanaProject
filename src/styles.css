@@ -1,0 +1,21 @@
+/* Títulos elegantes con Raleway */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Párrafos y texto con Roboto */
+body, p, li, a, span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Opcional: botones y overlays un poco más fuertes */
+button, .overlay-text h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
