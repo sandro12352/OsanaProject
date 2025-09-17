@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Párrafos y texto con Roboto */
-body, p, li, a, span {
+body,p, span {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #444;
