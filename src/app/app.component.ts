@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import Aos from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
