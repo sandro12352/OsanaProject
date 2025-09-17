@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import AOS from 'aos';
+import Aos from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ export class AppComponent  implements OnInit {
 
 
   ngOnInit(): void {
-    AOS.init({
+    Aos.init({
       duration: 1000, // tiempo de animación en ms
     });
   }
