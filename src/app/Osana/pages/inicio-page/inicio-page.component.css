@@ -10,7 +10,10 @@
   height: 100%;
   cursor: pointer;
 }
-
+#carouselInicio .carousel-item img {
+  min-height: 50vh; /* ocupa pantalla casi completa */
+  object-fit: cover; /* recorta sin deformar */
+}
 .zoom-img {
   width: 100%;
   object-fit: cover;
