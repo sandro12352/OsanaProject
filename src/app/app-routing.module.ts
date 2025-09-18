@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContactanosPageComponent } from './Osana/pages/cotizacion-page/contactanos-page.component';
 import { ArquitecturaPageComponent } from './Osana/pages/arquitectura-page/arquitectura-page.component';
 import { InicioPageComponent } from './Osana/pages/inicio-page/inicio-page.component';
+import { QuienesSomosComponent } from './Osana/pages/quienes-somos/quienes-somos.component';
 
 
 const routes: Routes = [
@@ -19,7 +20,10 @@ const routes: Routes = [
     path:"cotizacion",
     component:ContactanosPageComponent
   },
-  
+  {
+    path:'nosotros',
+    component:QuienesSomosComponent
+  },
   {
     path:"obra",
     loadChildren:()=>import('./Osana/osana.module').then(m=>m.OsanaModule)

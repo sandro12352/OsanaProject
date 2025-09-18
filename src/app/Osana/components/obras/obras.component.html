@@ -1,11 +1,20 @@
-<div class="container my-3">
-  <div class="row">
-    <div class="col-md-4 my-4 d-flex align-items-center flex-column" *ngFor="let obra of listObras">
-      <a [href]="'./obra/by/' + obra.id">
-        <div class="card-container" style="width: 25rem;height: 15rem;">
+<div class="container-fluid" style="margin-bottom: 6rem;">
+   <div class="options-bar animate__fadeIn d-flex justify-content-center gap-4" data-aos="fade">
+  <span class="option-item active">Todos</span>
+  <span class="option-item">Residenciales</span>
+  <span class="option-item">Comerciales</span>
+  <span class="option-item">Urbanismo</span>
+  <span class="option-item">Interiores</span>
+</div>
+
+
+  <div class="row g-2"> <!-- g-2 = menos espacio entre columnas y filas -->
+    <div class="col-md-3"  *ngFor="let obra of listObras">
+      <a [routerLink]="'/obra/by/' + obra.id">
+        <div class="card-container" data-aos="fade-right"  style="height: auto;">
           <img class="card-img" [src]="obra.imagen" [alt]="obra.titulo" style="height: 100%;">
-          <div class="container-hover">
-            <p>{{obra.titulo}}</p>
+          <div class="overlay-text" >
+            <h3>{{obra.titulo}}</h3>
           </div>
         </div>
       </a>

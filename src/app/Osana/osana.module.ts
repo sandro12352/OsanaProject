@@ -17,6 +17,7 @@ import { FormularioContactoComponent } from './components/formulario-contacto/fo
 import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
 import { SharedModule } from '../shared/shared.module';
 import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
+import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
 
 
 
@@ -35,6 +36,7 @@ import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
     ServiciosComponent,
     FormularioContactoComponent,
     LayoutPageComponent,
+    QuienesSomosComponent,
   ],  
   exports:[
     LayoutPageComponent,

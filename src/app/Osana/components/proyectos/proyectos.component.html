@@ -1,24 +1,9 @@
-<div class="container " >
-  <div class="row ">
-    <div class="col-md-4 my-4 d-flex align-items-center flex-column"  *ngFor="let proyecto  of listaProyectos" >
-      <a [href]="['/proyecto/by/'+proyecto.id]">
-        <div class=" animate__animated animate__fadeInRight card-img-container "   >
-        <img class="card-img " [src]="proyecto.imagen" [alt]="proyecto.titulo">
-        <div class="card-img-overlay text-dark"  style="height: 100%;" >Obra-2024</div>
-        <div class="container-hover  ">
-          <p>{{proyecto.titulo}}</p>
-        </div>
-      </div>
-    </a>
+<div class="container my-5">
+  <h3 class="mb-4">Proyectos Destacados</h3>
+  <div class="d-flex overflow-auto gap-3 pb-2">
+    <div class="proyecto-card flex-shrink-0" style="width: 250px;" *ngFor="let proyecto of listaProyectos">
+      <img [src]="proyecto.imagen" [alt]="proyecto.titulo" class="w-100 rounded mb-2">
+      <h6>{{ proyecto.titulo }}</h6>
     </div>
   </div>
-  
 </div>
-
-
-
-
-
-
-
-

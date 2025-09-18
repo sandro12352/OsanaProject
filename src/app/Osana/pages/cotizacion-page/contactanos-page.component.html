@@ -1,70 +1,94 @@
-<div class="container p-4">
-  <div class="row">
-    <div class="col-12 text-center my-3">
-      <h1>COTIZA TU PROYECTO</h1>
-    </div>
-    <div class="col-7 ">
-      <img src="./assets/images/casa4.png" alt="" style="width: 100%;">
-    </div>
-    <div class="col-5">
-      <form  [formGroup]="myForm" (submit)="enviarMensaje()" autocomplete="off">
-        <h3>DECLARATORIA DE FABRICA</h3>
-        <div class="mb-3">
-          <label  class="form-label">Área del terreno:</label>
-          <input formControlName="areaTerreno" type="number" name="areaTerreno" required class="form-control" placeholder="m2">
-          <span *ngIf="isValidField('areaTerreno')"
-            class="form-text text-danger"
-          >
-          {{getFieldError('areaTerreno')}}
+<div class="w-100 carousel-inner ">
+  <img src="https://content.arquitecturaydiseno.es/medio/2024/04/20/casas-de-campo-minimalistas_61c850b4_240420094734_2000x1232.jpg" 
+       class="d-block w-100" alt="Arquitectura Moderna" style="filter: brightness(65%);">
+
+  <div  class="carousel-caption-flex">
+    <h1 data-aos="fade-up" >COTIZA TÚ PROYECTO</h1>
+  </div>
+</div>
+
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5">
+      <form [formGroup]="myForm" (submit)="enviarMensaje()" autocomplete="off" class="p-4 shadow-sm rounded bg-white">
+        
+        <h3 class="text-center mb-4 fw-bold">Solicitar Servicio</h3>
+
+        <!-- Selector de servicio -->
+        <div class="mb-4">
+          <label class="form-label text-muted small">Selecciona un servicio</label>
+          <select formControlName="servicio" class="form-select rounded-pill">
+            <option value="" disabled selected>Elige un servicio</option>
+            <option value="Licencia de Construcción">Licencia de Construcción</option>
+            <option value="Declaratoria de Fábrica">Declaratoria de Fábrica</option>
+            <option value="Licencia de Demolición">Licencia de Demolición</option>
+            <option value="Anteproyecto de Arquitectura">Anteproyecto de Arquitectura</option>
+            <option value="Independización">Independización</option>
+            <option value="Subdivisión">Subdivisión</option>
+          </select>
+          <span *ngIf="isValidField('servicio')" class="form-text text-danger small">
+            {{getFieldError('servicio')}}
           </span>
         </div>
-        <div class="mb-3">
-          <label  class="form-label">Numero de pisos:</label>
-          <input formControlName="pisos" type="number" name="pisos" required class="form-control" >
-          <span *ngIf="isValidField('pisos')"
-          class="form-text text-danger"
-        >
-        {{getFieldError('pisos')}}
-        </span>
+
+        <!-- Campos del formulario -->
+        <div class="mb-4">
+          <label class="form-label text-muted small">Área del terreno</label>
+          <input formControlName="areaTerreno" type="number" class="form-control rounded-pill" placeholder="m²">
+          <span *ngIf="isValidField('areaTerreno')" class="form-text text-danger small">
+            {{getFieldError('areaTerreno')}}
+          </span>
         </div>
-        <div class="mb-3">
-          <label  class="form-label">Distrito:</label>
-          <input formControlName="distrito" type="text" name="distrito" required class="form-control" placeholder="Distrito">
-          <span *ngIf="isValidField('distrito')"
-          class="form-text text-danger"
-        >
-        {{getFieldError('distrito')}}
-        </span>
+
+        <div class="mb-4">
+          <label class="form-label text-muted small">Número de pisos</label>
+          <input formControlName="pisos" type="number" class="form-control rounded-pill">
+          <span *ngIf="isValidField('pisos')" class="form-text text-danger small">
+            {{getFieldError('pisos')}}
+          </span>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label" >Nombre y apellidos:</label>
-          <input formControlName="nombres" type="text" name="nombres" required class="form-control" id="exampleFormControlInput1" placeholder="Nombres" >
-          <span *ngIf="isValidField('nombres')"
-          class="form-text text-danger">
-        {{getFieldError('nombres')}}
-        </span>
+
+        <div class="mb-4">
+          <label class="form-label text-muted small">Distrito</label>
+          <input formControlName="distrito" type="text" class="form-control rounded-pill" placeholder="Ej. Miraflores">
+          <span *ngIf="isValidField('distrito')" class="form-text text-danger small">
+            {{getFieldError('distrito')}}
+          </span>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label" >Celular:</label>
-          <input formControlName="celular" type="text" name="celular" required class="form-control" id="exampleFormControlInput1" placeholder="Celular">
-          <span *ngIf="isValidField('celular')"
-          class="form-text text-danger">
-        {{getFieldError('celular')}}
-        </span>
+
+        <div class="mb-4">
+          <label class="form-label text-muted small">Nombre y apellidos</label>
+          <input formControlName="nombres" type="text" class="form-control rounded-pill" placeholder="Ej. Juan Pérez">
+          <span *ngIf="isValidField('nombres')" class="form-text text-danger small">
+            {{getFieldError('nombres')}}
+          </span>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label" >Correo:</label>
-          <input formControlName="correo" type="email" name="correo" required class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@correo.com" >
-          <span *ngIf="isValidField('correo')"
-          class="form-text text-danger">
-        {{getFieldError('correo')}}
-        </span>
+
+        <div class="mb-4">
+          <label class="form-label text-muted small">Celular</label>
+          <input formControlName="celular" type="text" class="form-control rounded-pill" placeholder="+51 987654321">
+          <span *ngIf="isValidField('celular')" class="form-text text-danger small">
+            {{getFieldError('celular')}}
+          </span>
         </div>
-        <button  type="submit" class="btn btn-dark " style="width: 40%;">Enviar</button>
+
+        <div class="mb-4">
+          <label class="form-label text-muted small">Correo</label>
+          <input formControlName="correo" type="email" class="form-control rounded-pill" placeholder="ejemplo@correo.com">
+          <span *ngIf="isValidField('correo')" class="form-text text-danger small">
+            {{getFieldError('correo')}}
+          </span>
+        </div>
+
+        <!-- Botón -->
+        <div class="d-grid">
+          <button type="submit" class="btn btn-dark rounded-pill py-2">Enviar</button>
+        </div>
       </form>
     </div>
   </div>
 </div>
+
 
 
     

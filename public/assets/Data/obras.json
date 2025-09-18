@@ -2,7 +2,7 @@
     {
       "id":1,   
       "titulo":"Obra 1",
-      "imagen":"./assets/images/casa7.jpeg",
+       "imagen":"https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_736,h_1104/https://blogs.uninter.edu.mx/ARQ-ICI/wp-content/uploads/2025/03/image-27.png",
       "descripcion":"Obra realizada en.....",
       "ano":"año",
       "ubicacion":"ubicacion"
@@ -10,32 +10,33 @@
     {
       "id":2,
       "titulo":"Obra 2",
-      "imagen":"./assets/images/casa7.jpeg",
+      "imagen":"https://i.pinimg.com/originals/3a/ca/64/3aca64a21d4291393c171a7244d86940.jpg",
       "descripcion":"Obra realizada en.....",
        "ano":"año",
       "ubicacion":"ubicacion"
       
     },
     {
-      "id":3 ,
-      "titulo":"Obra 3",
-      "imagen":"./assets/images/casa7.jpeg",
-      "descripcion":"Obra realizada en.....",
-       "ano":"año",
-      "ubicacion":"ubicacion"
-    },
-    {
       "id":4 ,
       "titulo":"Obra 4",
-      "imagen":"./assets/images/casa7.jpeg",
+      "imagen":"https://images.homify.com/v1440513658/p/photo/image/847744/AR-5.jpg",
       "descripcion":"Obra realizada en.....",
       "ano":"año",
       "ubicacion":"ubicacion"
     },
     {
+      "id":3 ,
+      "titulo":"Obra 3",
+      "imagen":"https://media.admagazine.com/photos/618a67c269ed46faf86e32f2/master/w_1600%2Cc_limit/67107.jpg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+    },
+    
+    {
       "id":5 ,
       "titulo":"Obra 5",
-      "imagen":"./assets/images/casa7.jpeg",
+      "imagen":"https://www.forestalmaderero.com/wp-content/uploads/2025/09/interiores-en-madera-cocina-apartamento-kufstein-1.jpg",
       "descripcion":"Obra realizada en.....",
        "ano":"año",
       "ubicacion":"ubicacion"
@@ -43,7 +44,7 @@
     {
       "id":6 ,
       "titulo":"Obra 6",
-      "imagen":"./assets/images/casa7.jpeg",
+      "imagen":"https://humanidadesiv.wordpress.com/wp-content/uploads/2016/09/arquitectura-minimalista.jpg",
       "descripcion":"Obra realizada en.....",
        "ano":"año",
       "ubicacion":"ubicacion"
@@ -51,7 +52,7 @@
     {
       "id":7 ,
       "titulo":"Obra 7",
-      "imagen":"./assets/images/casa7.jpeg",
+      "imagen":"https://i.pinimg.com/originals/36/78/43/367843a14d34075f6d8e44a75bb80544.png",
       "descripcion":"Obra realizada en.....",
        "ano":"año",
       "ubicacion":"ubicacion"
@@ -59,7 +60,7 @@
     {
       "id":8 ,
       "titulo":"Obra 8",
-      "imagen":"./assets/images/casa7.jpeg",
+      "imagen":"https://i.pinimg.com/736x/68/65/04/686504f616227c76e4f24f7ac9b7e16e.jpg",
       "descripcion":"Obra realizada en.....",
        "ano":"año",
       "ubicacion":"ubicacion"
@@ -67,7 +68,32 @@
     {
       "id":9 ,
       "titulo":"Obra 9",
-      "imagen":"./assets/images/casa7.jpeg",
+      "imagen":"https://arquitecturadisen.wordpress.com/wp-content/uploads/2012/11/diseno-interior-quitodiseno-interior-ecuador.jpg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+    },
+    {
+      "id":10 ,
+      "titulo":"Obra 9",
+      "imagen":"https://www.ifema.es/img/xl/ejemplos-arquitectura-minimalista/ejemplo-arquitectura-minimalista.jpg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+    },
+    {
+      "id":11 ,
+      "titulo":"Obra 9",
+      "imagen":"https://mnml.top/wp-content/uploads/2018/09/Arquitectura-minimal.jpg",
+      "descripcion":"Obra realizada en.....",
+       "ano":"año",
+      "ubicacion":"ubicacion"
+    }
+    ,
+    {
+      "id":12 ,
+      "titulo":"Obra 9",
+      "imagen":"https://www.hola.com/horizon/original_aspect_ratio/bed2aea1345e-casa-moena-1a-a.jpg",
       "descripcion":"Obra realizada en.....",
        "ano":"año",
       "ubicacion":"ubicacion"

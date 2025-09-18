@@ -1,7 +1,5 @@
-<header [ngClass]="{
-  'header-absolute header-light': router.url === '/',
-  'header-static header-dark': router.url !== '/'
-}">    <div class="container d-flex justify-content-between align-items-center">
+<header class="header-absolute header-light">   
+   <div class="container d-flex justify-content-between align-items-center">
 
     <!-- Izquierda: redes sociales solo en desktop -->
     <div class="header-left d-none d-md-flex align-items-center gap-3 animate__animated animate__fadeIn animate__slower">
@@ -23,7 +21,6 @@
     <button class="navbar-toggler border-0 bg-transparent order-md-1 order-2 animate__animated animate__fadeIn animate__slower" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
         <i class="bi bi-list fs-1 text-white"></i>
     </button>
-    <!-- Menú oculto que se despliega -->
    <!-- Menú oculto que se despliega -->
     <div class="offcanvas offcanvas-end custom-offcanvas" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
   <div class="offcanvas-header">

@@ -6,10 +6,7 @@
     z-index: 1000;
 }
 
-.header-static {
-    position: static;
-    width: 100%;
-}
+
 
 .header-light a,
 .header-light i,

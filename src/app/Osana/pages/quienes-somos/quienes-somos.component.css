@@ -1,3 +1,11 @@
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000; /* asegura fondo negro y sin flashes blancos */
+}
+
+
 .carousel-caption-flex {
   display: flex;
   justify-content: center;  /* centra horizontal */
@@ -11,8 +19,4 @@
   text-align: center;
 }
 
-.carousel-caption-flex h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.7); /* mejora la visibilidad */
-}
+
