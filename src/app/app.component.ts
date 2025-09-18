@@ -15,5 +15,8 @@ export class AppComponent  implements OnInit {
     Aos.init({
       duration: 1000, // tiempo de animación en ms
     });
+    window.addEventListener('load',()=>{
+      Aos.refresh()
+    })
   }
 }
