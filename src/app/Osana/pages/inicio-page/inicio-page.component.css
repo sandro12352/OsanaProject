@@ -1,7 +1,19 @@
 
 .container-fluid{
-  padding: 0 10rem !important;
+  padding: 0 6rem ;
 }
+
+
+@media (max-width: 575.98px) {
+  .container-fluid{
+  padding: 0 1rem;
+  margin: 0;
+}
+}
+
+
+
+
 
 .zoom-container {
   position: relative;

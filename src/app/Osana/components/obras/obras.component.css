@@ -3,6 +3,15 @@
   overflow: hidden; /* Evita que elementos hijos desborden el contenedor */
 }
 
+
+
+
+@media (max-width: 575.98px) {
+  .container-fluid{
+    padding: 0 1rem;
+  }
+}
+
 .card-img {
   transition: opacity 0.8s ease;
   width: 100%; /* Asegúrate de que la imagen ocupe todo el ancho */
