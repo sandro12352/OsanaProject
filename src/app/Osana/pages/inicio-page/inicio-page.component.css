@@ -23,9 +23,11 @@
   cursor: pointer;
 }
 #carouselInicio .carousel-item img {
-  min-height: 50vh; /* ocupa pantalla casi completa */
-  object-fit: cover; /* recorta sin deformar */
+  min-height: 100vh; /* ocupa pantalla casi completa */
+  
 }
+
+
 .zoom-img {
   width: 100%;
   object-fit: cover;
